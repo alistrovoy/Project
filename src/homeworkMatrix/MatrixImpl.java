@@ -1,6 +1,6 @@
 package homeworkMatrix;
 
-public class MatrixImpl implements IMatrix {
+public class MatrixImpl implements IMatrix1 {
     @Override
     public int getRows() {
         return 0;
@@ -22,27 +22,27 @@ public class MatrixImpl implements IMatrix {
     }
 
     @Override
-    public IMatrix add(IMatrix otherMatrix) throws IllegalArgumentException, NullPointerException {
+    public IMatrix1 add(IMatrix1 otherMatrix) throws IllegalArgumentException, NullPointerException {
         return null;
     }
 
     @Override
-    public IMatrix sub(IMatrix otherMatrix) throws IllegalArgumentException, NullPointerException {
+    public IMatrix1 sub(IMatrix1 otherMatrix) throws IllegalArgumentException, NullPointerException {
         return null;
     }
 
     @Override
-    public IMatrix mul(IMatrix otherMatrix) throws IllegalArgumentException, NullPointerException {
+    public IMatrix1 mul(IMatrix1 otherMatrix) throws IllegalArgumentException, NullPointerException {
         return null;
     }
 
     @Override
-    public IMatrix mul(double value) {
+    public IMatrix1 mul(double value) {
         return null;
     }
 
     @Override
-    public IMatrix transpose() {
+    public IMatrix1 transpose() {
         return null;
     }
 
